@@ -1,0 +1,14 @@
+{
+  "name": "Fuck Redirect",
+  "description": "rebuild the superhighway of the information age",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  // "externally_connectable": {
+  //   "matches": ["https://link.juejin.cn/?target=*"]
+  // }
+  "permissions": ["tabs"]
+}
